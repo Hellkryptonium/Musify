@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output
+frontend/build/
+backend/dist/
+
+# Firebase
+.firebase/
+.firebase-debug.log
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+backend/*.local
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# Misc
+*.tgz
+.idea/
+
+# Ignore coverage and test output
+coverage/
+frontend/coverage/
+backend/coverage/
+
+# Ignore local environment overrides
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Ignore firebase cache
+frontend/.firebase/
+
+# Ignore CI/CD artifacts
+*.tgz
+*.bak
+*.swp
+
+# Ignore generated files
+*.log
+
+# Ignore system files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore package-lock for frontend and backend if using yarn
+frontend/package-lock.json
+backend/package-lock.json
