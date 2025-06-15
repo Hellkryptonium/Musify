@@ -64,5 +64,5 @@ frontend/.firebase/
 *.sublime-project
 
 # Ignore package-lock for frontend and backend if using yarn
-frontend/package-lock.json
+
 backend/package-lock.json
